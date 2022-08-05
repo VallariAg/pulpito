@@ -1,6 +1,7 @@
 from pecan import conf, expose
 import requests
-from pulpito.controllers.util import prettify_run, session
+from pulpito.controllers.util import prettify_run
+from pulpito.controllers import session
 from urllib.parse import urljoin
 
 base_url = conf.paddles_address

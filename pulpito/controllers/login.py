@@ -1,6 +1,6 @@
 from pecan import conf, expose, redirect, request, abort
 from requests_oauthlib import OAuth2Session
-import urlparse
+import urllib.parse
 import os
 import json
 from dotenv import load_dotenv, find_dotenv
